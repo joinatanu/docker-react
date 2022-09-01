@@ -7,5 +7,4 @@ before_install:
 
 script:
   - docker run -e CI=true joinatanu/docker-react npm run test
-
 language : generic
